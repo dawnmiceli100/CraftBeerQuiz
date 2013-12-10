@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<title>Craft Beer Quiz</title>
+		<link rel="stylesheet" href="main.css" type="text/css"/>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script type="text/javascript" src="application.js"></script>
+		
+	</head>	
+
+	<body>
+	<!-- Container of all elements on page -->	
+	<div id="container">
+
+		<!-- Box to frame the application -->
+		<div id="frame">
+
+			<h1>Craft Beer Quiz</h1>	
+
+
+			<div id="quizBox">
+
+				<p id="questionNumber"></p>
+				<p id="score"></p>
+
+				<p id="question"></p>	
+
+				<ul id="answerList">	
+					<li id="answer0">
+					</li>
+
+					<li id="answer1">
+					</li>
+
+					<li id="answer2">	
+					</li>	
+
+					<li id="answer3">
+					</li>
+				</ul>			
+			</div>	
+
+			<button id="submitButton">Submit You Answer</button>
+
+			<div id="messageBox">
+				<p id="noAnswer" class="alert hidden">Please select an answer.</p>
+				<p id="incorrect" class="alert hidden">That answer is incorrect. Try again!
+				<p id="quizOver" class="alert hidden">You have completed the quiz!</p>
+			</div>	
+
+			
+		</div>
+		<!-- End of frame -->	
+				
+	</div>
+	<!-- End of Container -->
+	</body>
+
+</html>	
