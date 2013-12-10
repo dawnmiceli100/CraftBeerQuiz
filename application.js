@@ -41,7 +41,7 @@ $(document).ready(function() {
 	var question3 = new questionObject(3, question3Question, question3Answers, question3AnswerPosition);
 	var question4 = new questionObject(4, question4Question, question4Answers, question4AnswerPosition);
 
-	//Create array of questions
+	//Create array of question objects
 	var questionsArray = [question0, question1, question2, question3, question4];
 
 	var score = 0;
@@ -51,17 +51,18 @@ $(document).ready(function() {
 	var currentQuestion = 0;
 	displayQuestion(currentQuestion);
 	var correctAnswer = getCorrectAnswer(currentQuestion);
-		
+	
+	//User presses button to submit their answer	
 	$('#submitButton').click(function() {
 		hideMessages();
 		status = checkUserAnswer();
 
 		switch (status) {
-			case 'none':
+			case 'none': //didn't select a radio button
 				$('#noAnswer').removeClass('hidden');
 				break;
 
-			case 'incorrect':
+			case 'incorrect': //wrong answer
 				$('#incorrect').removeClass('hidden');
 				break;
 

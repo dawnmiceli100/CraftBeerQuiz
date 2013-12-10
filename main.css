@@ -56,23 +56,27 @@ table {
 	font-size: 20px;
 	color: black;
 	min-width: 900px;
+	height: 700px;
 	margin: 0 auto;
+	background-color: black;
 }
 
 #frame {
 	width: 650px;
 	height: 450px;
-	border: 2px solid grey;
+	border: 2px solid black;
 	border-radius: 5px;
-	background-color: #E6E6E6;
-	margin: 20px auto;
+	margin: 0 auto;
+	background-image: url('images/beer-background.jpg'); 
+	background-size: 100% 100%;
 }
 
 h1 {
 	text-align: center;
+	margin-top: 20px;
 	margin-bottom: 50px;
 	font-size: 50px;
-	color: #339966;
+/*	color: #339966; */
 }
 
 p {
@@ -105,7 +109,6 @@ li {
 #quizBox {
 	width: 540px;
 	height: 260px;
-/*	border: 2px solid purple; */
 	margin: 0 auto; 
 }
 
@@ -119,7 +122,7 @@ li {
 }
 
 .alert {
-	color: red;
+	color: #FFFFFF;
 }
 
 .hidden {
