@@ -69,6 +69,7 @@ $(document).ready(function() {
 			default: //correct answer	
 				score++;
 				displayScore();
+				$('#score').effect('pulsate', {times: 3});
 				currentQuestion++;
 				if (currentQuestion <= 4) {
 					displayQuestion(currentQuestion);

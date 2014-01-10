@@ -67,10 +67,10 @@ body {
 
 #frame {
 	width: 650px;
-	height: 450px;
+	height: 470px;
 	border: 2px solid black;
 	border-radius: 5px;
-	margin: 20px auto;
+	margin: 80px auto;
 	background-image: url('images/beer-background.jpg'); 
 	background-size: 100% 100%;
 }
@@ -78,7 +78,7 @@ body {
 h1 {
 	text-align: center;
 	margin-top: 20px;
-	margin-bottom: 50px;
+	margin-bottom: 70px;
 	font-size: 50px;
 /*	color: #339966; */
 }
@@ -94,14 +94,12 @@ li {
 }
 
 #questionNumber {
-	text-decoration: underline;
-	display: inline-block;
+	display: inline-block; 
 }
 
 #score {
-	display: inline-block;
-	text-decoration: underline;
-	float: right;
+	display: inline-block; 
+	float: right; 
 }
 
 #messageBox {
